@@ -1,0 +1,185 @@
+REQUEST: Method: GET, URI: /api/public/all, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 934ddfe4-1e44-4ffa-b3a0-c31a74631ffc
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+REQUEST: Method: GET, URI: /api/public/all, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 934ddfe4-1e44-4ffa-b3a0-c31a74631ffc
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: [{"id":1,"firstName":"Lorelle","email":"lface0@github.com"},{"id":2,"firstName":"Der","email":"dbeckhurst1@unesco.org"},{"id":3,"firstName":"Nye","email":"nfarndell2@wordpress.org"},{"id":4,"firstName":"Ryon","email":"rmatisoff3@constantcontact.com"},{"id":5,"firstName":"Jamal","email":"jgilhool4@example.com"},{"id":6,"firstName":"Margette","email":"mfrancescuzzi5@addthis.com"},{"id":7,"firstName":"Terrie","email":"tbernaldez6@foxnews.com"},{"id":8,"firstName":"Dede","email":"dzamudio7@dailymail.co.uk"},{"id":9,"firstName":"Evanne","email":"earsmith8@soup.io"},{"id":10,"firstName":"Cathrine","email":"cbarwick9@intel.com"},{"id":11,"firstName":"Mina","email":"mledekkera@drupal.org"},{"id":12,"firstName":"Tess","email":"thewesb@pbs.org"},{"id":13,"firstName":"Federica","email":"fabbiec@free.fr"},{"id":14,"firstName":"Cassi","email":"criegerd@taobao.com"},{"id":15,"firstName":"Nestor","email":"njuszczyke@cloudflare.com"},{"id":16,"firstName":"Lawrence","email":"lridsdolef@nature.com"},{"id":17,"firstName":"Prentiss","email":"pwringeg@prlog.org"},{"id":18,"firstName":"Maryrose","email":"msinkingsh@yale.edu"},{"id":19,"firstName":"Eveleen","email":"esterryi@studiopress.com"},{"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}]
+RESPONSE: Status: 200, Body: [{"id":1,"firstName":"Lorelle","email":"lface0@github.com"},{"id":2,"firstName":"Der","email":"dbeckhurst1@unesco.org"},{"id":3,"firstName":"Nye","email":"nfarndell2@wordpress.org"},{"id":4,"firstName":"Ryon","email":"rmatisoff3@constantcontact.com"},{"id":5,"firstName":"Jamal","email":"jgilhool4@example.com"},{"id":6,"firstName":"Margette","email":"mfrancescuzzi5@addthis.com"},{"id":7,"firstName":"Terrie","email":"tbernaldez6@foxnews.com"},{"id":8,"firstName":"Dede","email":"dzamudio7@dailymail.co.uk"},{"id":9,"firstName":"Evanne","email":"earsmith8@soup.io"},{"id":10,"firstName":"Cathrine","email":"cbarwick9@intel.com"},{"id":11,"firstName":"Mina","email":"mledekkera@drupal.org"},{"id":12,"firstName":"Tess","email":"thewesb@pbs.org"},{"id":13,"firstName":"Federica","email":"fabbiec@free.fr"},{"id":14,"firstName":"Cassi","email":"criegerd@taobao.com"},{"id":15,"firstName":"Nestor","email":"njuszczyke@cloudflare.com"},{"id":16,"firstName":"Lawrence","email":"lridsdolef@nature.com"},{"id":17,"firstName":"Prentiss","email":"pwringeg@prlog.org"},{"id":18,"firstName":"Maryrose","email":"msinkingsh@yale.edu"},{"id":19,"firstName":"Eveleen","email":"esterryi@studiopress.com"},{"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}]
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 9542fbc1-f7dd-4afc-9776-2a8c8d3f7f29
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 9542fbc1-f7dd-4afc-9776-2a8c8d3f7f29
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
+REQUEST: Method: POST, URI: /api/public/add, QueryString: null, Headers: content-type: application/json
+user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: ad505de0-5452-44c6-9807-57afa6cebfb5
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+content-length: 69
+
+REQUEST: Method: POST, URI: /api/public/add, QueryString: null, Headers: content-type: application/json
+user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: ad505de0-5452-44c6-9807-57afa6cebfb5
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+content-length: 69
+
+RESPONSE: Status: 201, Body: {"id":21,"firstName":"John","email":"john.doe@example.com"}
+RESPONSE: Status: 201, Body: {"id":21,"firstName":"John","email":"john.doe@example.com"}
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: d0779652-93f8-43bc-96e3-d5f13e3d3895
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: f150db33-a00f-41d7-8232-7356a38ec528
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: f9cb366b-ccf2-4abc-bc82-028156cda8ab
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 96fa0f76-f1cd-48cd-af3b-e52ff5b6f31b
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: b3ab99f9-dbe3-421c-8c8c-40ea31ff1aff
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
+REQUEST: Method: POST, URI: /api/public/add, QueryString: null, Headers: content-type: application/json
+user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: fdd91f3f-f561-445e-abe2-14c9ddb17d65
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+content-length: 69
+
+RESPONSE: Status: 201, Body: {"id":21,"firstName":"John","email":"john.doe@example.com"}
+REQUEST: Method: POST, URI: /api/public/add, QueryString: null, Headers: content-type: application/json
+user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: bc983429-3bbc-4a7d-a384-d8978e8eda08
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+content-length: 69
+
+RESPONSE: Status: 201, Body: {"id":21,"firstName":"John","email":"john.doe@example.com"}
+REQUEST: Method: POST, URI: /api/public/add, QueryString: null, Headers: content-type: application/json
+user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 0d08abe2-d60b-42cb-bd27-60f9cab18e46
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+content-length: 69
+
+RESPONSE: Status: 201, Body: {"id":22,"firstName":"John","email":"john.doe@example.com"}
+REQUEST: Method: POST, URI: /api/public/add, QueryString: null, Headers: content-type: application/json
+user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 42d4049d-6909-4cd7-ae9b-0e82f5d83140
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+content-length: 69
+
+RESPONSE: Status: 201, Body: {"id":21,"firstName":"John","email":"john.doe@example.com"}
+REQUEST: Method: POST, URI: /api/public/add, QueryString: null, Headers: content-type: application/json
+user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 86e211f6-cc84-4c07-8434-e20588a1c388
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+content-length: 69
+
+RESPONSE: Status: 201, Body: {"id":21,"firstName":"John","email":"john.doe@example.com"}
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 9ab32b42-7b02-45d8-954f-9a2926376838
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 88a1c8a3-6c13-4f4d-b670-eb1a86c26b2c
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
+REQUEST: Method: GET, URI: /api/public/20, QueryString: null, Headers: user-agent: PostmanRuntime/7.42.0
+accept: */*
+cache-control: no-cache
+postman-token: 34243944-c5f8-4245-b757-57bc45b77a6a
+host: localhost:8080
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+RESPONSE: Status: 200, Body: {"id":20,"firstName":"Ricardo","email":"rhatwellsj@blogger.com"}
